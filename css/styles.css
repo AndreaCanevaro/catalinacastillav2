@@ -122,7 +122,7 @@ header .textos-header{
     --bs-navbar-brand-margin-end:30rem;
     margin-left: 15px;
     border-bottom: #050505 solid;
-    border-radius: 80%;
+    border-width: 80%;
 }
 .navbar-nav{
     font-family: 'Josefin Sans', sans-serif;
