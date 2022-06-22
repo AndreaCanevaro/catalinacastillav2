@@ -163,15 +163,16 @@ html, body {
   text-decoration: none;
   color: black;
 }
+
 @media screen and (max-width:500px) {
   .contact-details a, .contact-details i{
-    font-size: 12px;
+    margin-top: 120px;
   }
   .footer .footer-container .left{
-    max-width: 50%;
+    max-width: 30%;
   }
   .contact-form{
-    max-width: 50%;
+    max-width: 70%;
   }
   
 }
@@ -187,6 +188,7 @@ html, body {
 }
 .contact-form{
   display: block;
+  margin-top: 40px;
 }
 .input-group{
   display: flex;
