@@ -149,7 +149,7 @@ html, body {
 }
 .footer .footer-container .footer-section{
   flex: 1;
-  padding: 25px;
+  padding: 20px;
 }
 .contact-details h6{
   font-size: 17px;
@@ -157,10 +157,23 @@ html, body {
 .footer .footer-container .left .contact-details span{
   display: block;
   margin-top: 20px;
+  max-width: 250px;
 }
 .contact-details a, .contact-details i{
   text-decoration: none;
   color: black;
+}
+@media screen and (max-width:500px) {
+  .contact-details a, .contact-details i{
+    font-size: 12px;
+  }
+  .footer .footer-container .left{
+    max-width: 50%;
+  }
+  .contact-form{
+    max-width: 50%;
+  }
+  
 }
 .social-media{
   display: flex;
