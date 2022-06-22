@@ -272,3 +272,12 @@ textarea {
 .portada-ingrese a:hover{
     color: #050505;
 }
+@media screen and (min-width:500px)  {
+  .portada-ingrese a{
+    color: #070707;
+    font-size: 20px;
+}
+.portada-ingrese a:hover{
+  color: #fcfafa;
+}
+}
