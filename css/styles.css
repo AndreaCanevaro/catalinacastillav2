@@ -165,16 +165,36 @@ html, body {
 }
 
 @media screen and (max-width:500px) {
-  .contact-details a, .contact-details i{
-    margin-top: 120px;
-  }
   .footer .footer-container .left{
-    max-width: 30%;
+    display: none;
   }
-  .contact-form{
-    max-width: 70%;
+  .footer {
+    height: 480px;
   }
-  
+
+.footer .footer-container{
+  height: 450px;
+}
+  .footer .footer-container .footer-section {
+    margin-left: 10px;
+    padding: 0px;
+  }
+  .footer-section .contact-form {
+    max-width: 80%;
+    margin-top: 5px;
+  }
+  .right .social-media{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .right .contact-details{
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width:500px) {
+  .footer .footer-container .right{
+    display: none;
+  }  
 }
 .social-media{
   display: flex;
@@ -200,10 +220,6 @@ html, body {
 }
 textarea {
   min-height: 100px;
-}
-.button-expanded a {
-  text-decoration: none;
-  margin-top: 10px;
 }
 
 @media screen and (max-width:900px){
