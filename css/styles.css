@@ -169,19 +169,20 @@ html, body {
     display: none;
   }
   .footer {
-    height: 480px;
+    height: 450px;
   }
 
 .footer .footer-container{
-  height: 450px;
+  height: 400px;
 }
   .footer .footer-container .footer-section {
     margin-left: 10px;
     padding: 0px;
   }
-  .footer-section .contact-form {
-    max-width: 80%;
+  .contact-form {
+    max-width: 90%;
     margin-top: 5px;
+    padding-left: 10px;
   }
   .right .social-media{
     margin-top: 15px;
