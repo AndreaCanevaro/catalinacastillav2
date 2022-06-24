@@ -22,12 +22,19 @@ html, body {
 }
 .navbar-nav{
     font-family: 'Josefin Sans', sans-serif;
+    margin-left: 25px;
 }
 .navbar-collapse{
   margin-right: 20px;
 }
 .navbar-toggler{
   margin-right: 20px;
+}
+@media screen and (max-width:500px) {
+  .navbar-brand img{
+    width: 120px;
+    height: 120px;
+}
 }
 /*Carousel*/
 .carousel-item{
@@ -111,6 +118,16 @@ html, body {
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
 }
+
+/*ABOUT*/
+.about{
+min-height: 100%;
+}
+
+/*TALLER*/
+.taller{
+  min-height: 100%;
+  }
 
 /* FOOTER */
 .footer {
