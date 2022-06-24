@@ -14,27 +14,21 @@ html, body {
 }
 
 /*Header*/
-
 .header-container{
     box-sizing: border-box;
 }
-
 .navbar-brand{
     margin-left: 20px;
-}
-.navbar{
-    --bs-navbar-brand-margin-end:30rem;
-    margin-left: 15px;
-    border-bottom: 0.3px solid #050505;
-    
 }
 .navbar-nav{
     font-family: 'Josefin Sans', sans-serif;
 }
-.bg-light{
-    background-color: #f2f2f2;
+.navbar-collapse{
+  margin-right: 20px;
 }
-
+.navbar-toggler{
+  margin-right: 20px;
+}
 /*Carousel*/
 .carousel-item{
   height: 30rem;
@@ -222,6 +216,8 @@ html, body {
 textarea {
   min-height: 100px;
 }
+/*End of Footer*/
+
 
 @media screen and (max-width:900px){
     /* Galeria */
