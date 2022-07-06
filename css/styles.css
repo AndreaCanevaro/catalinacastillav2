@@ -38,7 +38,7 @@ html, body {
 }
 /*Carousel*/
 .carousel-item{
-  height: 30rem;
+  height: 50rem;
   background: rgb(5, 5, 5);
   color: white;
   font-family: 'Josefin Sans', sans-serif;
@@ -64,7 +64,7 @@ html, body {
 
 /* Galeria */
 .portafolio{
-    background: rgb(253, 250, 250);
+    background: white;
     min-height: 100%;
 }
 
@@ -72,13 +72,17 @@ html, body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 200px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 2rem;
 }
 
 .imagen-port{
-    width: 24%;
+    border: rgb(173, 173, 171) solid 2px;
+    width: 20%;
+    margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 2rem;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -88,7 +92,7 @@ html, body {
 .imagen-port > img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
     display: block;
 }
 
