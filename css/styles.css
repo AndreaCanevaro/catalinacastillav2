@@ -39,18 +39,25 @@ html, body {
 /*Carousel*/
 .carousel-item{
   height: 50rem;
-  background: rgb(5, 5, 5);
-  color: white;
+  background: rgb(247, 247, 247);
+  color: rgb(61, 60, 60);
   font-family: 'Josefin Sans', sans-serif;
   position: relative;
 }
 .container{
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 15rem;
   right: 0;
   padding-bottom: 50px;
 }
+@media screen and (max-width:500px) {
+  .container{
+    padding-bottom: 180px;
+    left: 0;
+  }
+}
+
 .overlay-image{
   position: absolute;
   bottom: 0;
