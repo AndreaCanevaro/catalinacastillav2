@@ -135,7 +135,7 @@ min-height: 100%;
 
 /* FOOTER */
 .footer {
-    background-color: #eceaea;
+    background-color: #f9f7f7;
     color: rgb(71, 70, 70);
     font-family: 'Josefin Sans', sans-serif;
     height: 400px;
@@ -148,8 +148,8 @@ min-height: 100%;
 }
 
 .footer-bottom {
-  background-color: #dfdede;
-  color: rgb(71, 70, 70);
+  background-color: #eae8e8;
+  color: rgb(92, 91, 91);
   font-family: 'Josefin Sans', sans-serif;
   height: 50px;
   width: 100%;
@@ -231,12 +231,15 @@ min-height: 100%;
   max-width: 500px;
 }
 .input-group-field, textarea {
+  border: white;
   width: 100%;
   margin-bottom: 10px;
 }
 textarea {
+  border: white;
   min-height: 100px;
 }
+
 /*End of Footer*/
 
 
