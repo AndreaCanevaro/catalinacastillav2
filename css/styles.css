@@ -40,22 +40,20 @@ html, body {
 .carousel-item{
   height: 50rem;
   background: rgb(247, 247, 247);
-  color: rgb(61, 60, 60);
+  color: rgb(250, 246, 246);
   font-family: 'Josefin Sans', sans-serif;
   position: relative;
 }
+.carousel-img-container{
+  margin-top: 11rem;
+  margin-bottom: 10rem;
+}
 .container{
   position: absolute;
+  left: 3rem;
   bottom: 0;
-  left: 15rem;
   right: 0;
   padding-bottom: 50px;
-}
-@media screen and (max-width:500px) {
-  .container{
-    padding-bottom: 180px;
-    left: 0;
-  }
 }
 
 .overlay-image{
