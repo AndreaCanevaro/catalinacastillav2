@@ -38,7 +38,7 @@ html, body {
 }
 /*Carousel*/
 .carousel-item{
-  height: 50rem;
+  height: 40rem;
   background: rgb(247, 247, 247);
   color: rgb(250, 246, 246);
   font-family: 'Josefin Sans', sans-serif;
