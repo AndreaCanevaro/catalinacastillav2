@@ -56,7 +56,13 @@ html, body {
   padding-bottom: 50px;
 }
 
-.overlay-image{
+.carousel-control-prev-icon{
+ margin-top: 10rem; 
+}
+.carousel-control-next-icon{
+  margin-top: 10rem;
+}
+/*.overlay-image{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -65,7 +71,7 @@ html, body {
   background-position: center;
   background-size: cover;
   opacity: 0.5;
-}
+}*/
 
 /* Galeria */
 .portafolio{
