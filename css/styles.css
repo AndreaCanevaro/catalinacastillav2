@@ -160,11 +160,25 @@ html, body {
   }
 }
 
-
 /*TALLER*/
 .taller{
   min-height: 100%;
   }
+.flyer{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 20rem;
+}
+@media screen and (max-width: 500px) {
+  .taller{
+    
+  }
+  .flyer{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+  }
+}
 
 /* FOOTER */
 .footer {
